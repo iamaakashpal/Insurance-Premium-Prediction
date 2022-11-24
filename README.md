@@ -57,7 +57,7 @@ To check remote url
 
     git remote -v
 
-# To setup CI/CD pipeline in heroku we need 3 information
+## To setup CI/CD pipeline in heroku we need 3 information
 
     HEROKU_EMAIL = aakashpal1198@gmail.com
     HEROKU_API_KEY = <>
