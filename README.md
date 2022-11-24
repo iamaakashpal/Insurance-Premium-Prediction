@@ -62,3 +62,5 @@ To check remote url
     HEROKU_EMAIL = aakashpal1198@gmail.com
     HEROKU_API_KEY = <>
     HEROKU_APP_NAME = a-insurance-premium-prediction
+
+> NOTE :- -e . is to install custom packages
