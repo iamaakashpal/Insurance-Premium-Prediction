@@ -27,3 +27,12 @@ Activate conda environment :
 Install requirements.txt file
 
     pip install -r requirements.txt
+
+
+To add files to git
+
+    git add .
+        
+        or
+    
+    git add <file_name>
