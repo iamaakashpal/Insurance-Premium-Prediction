@@ -56,3 +56,9 @@ To send version/changes to github
 To check remote url 
 
     git remote -v
+
+# To setup CI/CD pipeline in heroku we need 3 information
+
+    HEROKU_EMAIL = aakashpal1198@gmail.com
+    HEROKU_API_KEY = <>
+    HEROKU_APP_NAME = insurance-premium-prediction
