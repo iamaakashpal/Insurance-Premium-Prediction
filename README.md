@@ -1,6 +1,6 @@
 <h1 align="center"> Insurance-Premium-Prediction CI CD Pipeline.</h1>
 
-Application URl :- 
+Application URl :- https://a-insurance-premium-prediction.herokuapp.com/
 
 ## Problem Statement:
 
@@ -61,4 +61,4 @@ To check remote url
 
     HEROKU_EMAIL = aakashpal1198@gmail.com
     HEROKU_API_KEY = <>
-    HEROKU_APP_NAME = insurance-premium-prediction
+    HEROKU_APP_NAME = a-insurance-premium-prediction
