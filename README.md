@@ -63,4 +63,4 @@ To check remote url
     HEROKU_API_KEY = <>
     HEROKU_APP_NAME = a-insurance-premium-prediction
 
-> NOTE :- -e . is to install custom packages
+> NOTE : -e . is used to install custom packages.
