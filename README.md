@@ -1,4 +1,4 @@
-## Insurance-Premium-Prediction CI CD Pipeline.
+<h1 align="center"> Insurance-Premium-Prediction CI CD Pipeline.</h1>
 
 Application URl :- 
 
