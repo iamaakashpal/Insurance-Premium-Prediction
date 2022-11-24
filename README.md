@@ -32,7 +32,5 @@ Install requirements.txt file
 To add files to git
 
     git add .
-        
         or
-    
     git add <file_name>
