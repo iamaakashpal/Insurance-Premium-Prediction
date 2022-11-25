@@ -64,3 +64,7 @@ To check remote url
     HEROKU_APP_NAME = a-insurance-premium-prediction
 
 > NOTE : -e . is used to install custom packages.
+
+## Install ipykernel
+
+    pip install ipykernel
