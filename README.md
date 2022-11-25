@@ -68,3 +68,7 @@ To check remote url
 ## Install ipykernel
 
     pip install ipykernel
+
+## Install PyYAML
+
+    pip install PyYAML
