@@ -1,5 +1,6 @@
 from insurance.entity.config_entity import DataIngestionConfig
 from insurance.exception import InsuranceException
+from insurance.util.util import read_yaml_file
 import os,sys
 from insurance.logger import logging
 
