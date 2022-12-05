@@ -72,6 +72,7 @@ class DataIngestion:
             insurance_data_frame['bmi_category']=pd.cut(insurance_data_frame.bmi,bins=[10,20,30,40,50,np.inf],
                                                     labels=[1,2,3,4,5])
             split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
+            
             for train_index,test_index in split.split(insurance_data_frame,insurance_data_frame.bmi_category):
                 train_dataframe=insurance_data_frame.loc[train_index]
                 test_dataframe=insurance_data_frame.loc[test_index]
