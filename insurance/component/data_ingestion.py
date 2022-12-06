@@ -14,7 +14,7 @@ class DataIngestion:
 
     def __init__(self,data_ingestion_config:DataIngestionConfig) -> None:
         try:
-            logging.info(f"{'+'*20} Data Ingestion Log Started .{'+'*20}")
+            logging.info(f"# {'='*10} # Data Ingestion Log Started. # {'='*10} #")
             self.data_ingestion_config=data_ingestion_config
         except Exception as e:
             raise InsuranceException(e,sys) from e
@@ -54,7 +54,7 @@ class DataIngestion:
                 zip_ref.extractall(raw_data_dir)
 
 
-            logging.info(f"{'*'*20}EXtraction Completed {'*'*20}")
+            logging.info(f"# {'='*10} # EXtraction Completed. # {'='*10} #")
 
         except Exception as e:
             raise InsuranceException(e,sys) from e
@@ -94,7 +94,7 @@ class DataIngestion:
                                                           test_file_path=test_file_path,
                                                           is_ingested=True,
                                                           message=f"Data Ingestion Completed")
-            logging.info(f"{'*'*20} Data Ingestion Successfully {'*'*20}")
+            logging.info(f"# {'='*10} # Data Ingestion Successfully. # {'='*10} #")
             return data_ingestion_artifact
         except Exception as e:
             raise InsuranceException(e,sys) from e
@@ -108,7 +108,8 @@ class DataIngestion:
             raise InsuranceException(e,sys) from e
 
     def __del__(self):
-        logging.info(f"{'#'*20} Data Ingestion Log Completed .{'#'*20} \n\n")
+        logging.info(f"# {'='*10} # Data Ingestion Log Completed. # {'='*10} #")
+        print('\n\n')
 
 
     
