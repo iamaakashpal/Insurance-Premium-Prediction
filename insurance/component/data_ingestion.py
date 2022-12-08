@@ -54,7 +54,7 @@ class DataIngestion:
                 zip_ref.extractall(raw_data_dir)
 
 
-            logging.info(f"# {'='*10} # EXtraction Completed. # {'='*10} #")
+            logging.info(f"# {'='*10} # Extraction Completed. # {'='*10} #")
 
         except Exception as e:
             raise InsuranceException(e,sys) from e
@@ -108,8 +108,6 @@ class DataIngestion:
             raise InsuranceException(e,sys) from e
 
     def __del__(self):
-        logging.info(f"# {'='*10} # Data Ingestion Log Completed. # {'='*10} #")
-        print('\n\n')
-
+        logging.info(f"# {'='*10} # Data Ingestion Log Completed. # {'='*10} #\n\n")
 
     
