@@ -19,7 +19,7 @@ class ModelEvaluation:
                  data_validation_artifact: DataValidationArtifact,
                  model_trainer_artifact: ModelTrainerArtifact):
         try:
-            logging.info(f"{'>>' * 30}Model Evaluation log started.{'<<' * 30} ")
+            logging.info(f"# {'='*10} # Model Evaluation log started. # {'='*10} # ")
             self.model_evaluation_config = model_evaluation_config
             self.model_trainer_artifact = model_trainer_artifact
             self.data_ingestion_artifact = data_ingestion_artifact
@@ -155,4 +155,4 @@ class ModelEvaluation:
             raise InsuranceException(e, sys) from e
 
     def __del__(self):
-        logging.info(f"{'=' * 20}Model Evaluation log completed.{'=' * 20} ")
+        logging.info(f"# {'='*10} # Model Evaluation log completed. # {'='*10} #")
