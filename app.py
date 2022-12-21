@@ -4,7 +4,7 @@ import pip
 from insurance.util.util import read_yaml_file, write_yaml_file
 from matplotlib.style import context
 from insurance.logger import logging
-from insurance.exception import insuranceException
+from insurance.exception import InsuranceException
 import os, sys
 import json
 from insurance.config.configuration import Configuartion
@@ -162,6 +162,21 @@ def saved_models_dir(req_path):
         "parent_label": abs_path
     }
     return render_template('saved_models_files.html', result=result)
+
+@app.route("/update_model_config", methods=['GET', 'POST'])
+def update_model_config():
+    try:
+        if request.method == 'POST':
+            model_config = request.form['new_model_config']
+            model_config = model_config.replace("'", '"')
+            print(model_config)
+            model_config = json.loads(model_config)
+            write_yaml_file(file_path=MODEL_CONFIG_FILE_PATH, data=model_config)
+        model_config = read_yaml_file(file_path=MODEL_CONFIG_FILE_PATH)
+        return render_template('update_model.html', result={"model_config": model_config})
+    except  Exception as e:
+        logging.exception(e)
+        return str(e)
 
 @app.route(f'/logs', defaults={'req_path': f'{LOG_FOLDER_NAME}'})
 @app.route(f'/{LOG_FOLDER_NAME}/<path:req_path>')
