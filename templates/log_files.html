@@ -25,9 +25,9 @@
 <div class="row">
     {% for href,label in result["files"].items() %}
     <div class="col-md-2 text-center">
-        <a href="/logs/{{href}}" style="text-decoration: none;">
+        <a href="/logs/{{href}}" style="color: white;">
 
-            <i class="fa {% if '.' in label %} fa-file {% else %} fa-folder {% endif %} fa-8x" aria-hidden="true"></i> <br>{{ label }}
+            <i class="fa {% if '.' in label %} fa-file {% else %} fa-folder {% endif %} fa-8x" aria-hidden="true" style="color: black;"></i> <br>{{ label }}
             {% if '.' in label %}
         <i class="fa fa-download" aria-hidden="true"></i>
         {% endif %}
