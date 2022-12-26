@@ -9,7 +9,7 @@
 {% block content %}
 
 <div class="row">
-    <div class="col-md-6 col-sm-12 col-xs-6 col-lg-6" style="border-style: solid;border-color: darkslategray;height: 620px;">
+    <div class="col-md-6 col-sm-12 col-xs-6 col-lg-6" style="background-color:white;border-style: double;height: 620px;">
 
 
         <form action="/predict" method="post">
@@ -82,14 +82,14 @@
     </div>
 
     <!-- <div class="col-md-6 col-sm-12 col-xs-6 col-lg-6"> -->
-        <div class="card" style="left :600px;top:-610px">
+        <div class="card" style="left :600px;top:-599px;border-color: black;">
             <div class="card-header">
               Insurance Premium price
             </div>
             <div class="card-body">
         {% if context['Insurance_data'] is not none %}
         <table class="table table-striped">
-            <caption>Insurance Premium Prediction </caption>
+            <!-- <caption>Insurance Premium Prediction </caption> -->
             <tr>
                 <th>Input Feature</th>
                 <th>Feature Value</th>
@@ -122,7 +122,7 @@
          
 
         {% endif %}
-        Go to <a href="/" class="btn btn-primary">Home</a>
+        <!-- Go to <a href="/" class="btn btn-primary">Home</a> -->
     </div>
 </div>
     </div>

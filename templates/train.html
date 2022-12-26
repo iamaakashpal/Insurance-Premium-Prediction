@@ -11,10 +11,16 @@
 
 {% block content %}
 
-
-Go to <a class="btn btn-primary" href="/">Home</a>
+<style>
+.table{
+  background-color: white;
+  border-style: double;
+  border-color: black;
+  }
+</style>
+<!-- Go to <a class="btn btn-primary" href="/">Home</a> -->
 <div class="row">
-    <div class="alert alert-primary" role="alert">
+    <div class="alert alert-danger" role="alert">
         {{ context['message']}}
       </div>
   

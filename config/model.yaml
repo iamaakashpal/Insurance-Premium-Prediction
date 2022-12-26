@@ -14,4 +14,4 @@ module_1:
     min_samples_leaf: 3
   search_param_grid:
     min_samples_leaf:
-    - 5
+    - 4
