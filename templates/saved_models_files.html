@@ -14,7 +14,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
     {% if "saved_models" in result['parent_folder'] %}
     <!-- <a href="/saved_models/{{result['parent_folder']}}"><i class="fa fa-arrow-left" aria-hidden="true"></i>Back</a> -->
-    <a class="btn btn-dark" href="/saved_models/saved_models"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</a>
+    <a class="btn btn-dark" href="/saved_models/{{result['parent_folder']}}"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</a>
     <h4 style="text-align:center;">
     {{result['parent_label']}}
     </h4>
