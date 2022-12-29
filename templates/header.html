@@ -65,7 +65,7 @@ table-layout: fixed;
     color:#ff004f;
 }
 </style>
-<body style="background-color: #080808;">
+<body style="background-color: #080808; font-family:cursive">
 
 <!--- navbar code -->
 
@@ -78,9 +78,9 @@ table-layout: fixed;
             <a class="navbar-brand" href="/" style="color:#b54769;">Insurance Premium Estimator</a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/" style="color:#b54769;">Home</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link {% if 'log' in request.path %} active {% endif %}" href="/logs" style="color:#b54769;">View Logs</a>
                     </li>
@@ -123,11 +123,14 @@ table-layout: fixed;
 
 
     <footer class="text-center text-white " >
+        <div style="background-color: black;height: 46px;">
         <div class="social-icons">
+            <section class="mb-4">
             <a href="https://www.linkedin.com/in/iamaakashpal" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/iamaakashpal" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></i></a>
             <a href="https://www.youtube.com/channel/UCYBlRxDjQSFtst6WnjcXsqQ" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></i></a>
-        </div>
+            </section>
+        </div></div>
         
 
         <!-- Copyright -->
