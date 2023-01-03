@@ -1,5 +1,5 @@
 best_model:
-  model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-03-12-50-12\trained_model\model.pkl
+  model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-03-13-15-35\trained_model\model.pkl
 history:
   2023-01-03-11-43-49:
     model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-03-11-43-02\trained_model\model.pkl
@@ -21,3 +21,5 @@ history:
     model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-03-12-29-51\trained_model\model.pkl
   2023-01-03-12-50-12:
     model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-03-12-30-25\trained_model\model.pkl
+  2023-01-03-13-15-35:
+    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-03-12-50-12\trained_model\model.pkl
