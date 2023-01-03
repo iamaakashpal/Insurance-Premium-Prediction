@@ -1,33 +1,11 @@
 best_model:
-  model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-21-38-00\trained_model\model.pkl
+  model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-03-11-56-14\trained_model\model.pkl
 history:
-  2022-12-29-19-21-43:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2022-12-29-19-20-47\trained_model\model.pkl
-  2022-12-29-19-31-03:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2022-12-29-19-21-43\trained_model\model.pkl
-  2023-01-02-11-05-51:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2022-12-29-19-31-03\trained_model\model.pkl
-  2023-01-02-13-27-11:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-11-05-51\trained_model\model.pkl
-  2023-01-02-20-55-13:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-13-27-11\trained_model\model.pkl
-  2023-01-02-21-10-23:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-20-55-13\trained_model\model.pkl
-  2023-01-02-21-14-58:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-21-10-23\trained_model\model.pkl
-  2023-01-02-21-15-15:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-21-14-58\trained_model\model.pkl
-  2023-01-02-21-16-22:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-21-15-15\trained_model\model.pkl
-  2023-01-02-21-16-27:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-21-16-22\trained_model\model.pkl
-  2023-01-02-21-21-41:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-21-16-27\trained_model\model.pkl
-  2023-01-02-21-37-24:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-21-21-41\trained_model\model.pkl
-  2023-01-02-21-37-27:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-21-37-24\trained_model\model.pkl
-  2023-01-02-21-37-57:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-21-37-27\trained_model\model.pkl
-  2023-01-02-21-38-00:
-    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-02-21-37-57\trained_model\model.pkl
+  2023-01-03-11-43-49:
+    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-03-11-43-02\trained_model\model.pkl
+  2023-01-03-11-52-17:
+    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-03-11-43-49\trained_model\model.pkl
+  2023-01-03-11-55-47:
+    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-03-11-52-17\trained_model\model.pkl
+  2023-01-03-11-56-14:
+    model_path: D:\INEURON\ML PROJECT\Insurance-Premium-Prediction\insurance\artifact\model_trainer\2023-01-03-11-55-47\trained_model\model.pkl
