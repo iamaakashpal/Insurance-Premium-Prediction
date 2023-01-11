@@ -32,3 +32,14 @@ model_selection:
       - 50
       - 100
       - 80
+  module_1:
+    class: GradientBoostingRegressor
+    module: sklearn.ensemble
+    params:
+      n_estimators: 10
+      
+    search_param_grid:
+      n_estimators:
+      - 30
+      - 50
+      - 70    
