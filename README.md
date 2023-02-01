@@ -1,6 +1,6 @@
 <h1 align="center"> Insurance-Premium-Prediction CI CD Pipeline.</h1>
 
-Application URl :- https://a-insurance-premium-prediction.herokuapp.com/
+Application URl :- https://insurancepremiumprediction.up.railway.app/
 
 ## Problem Statement:
 
