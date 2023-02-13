@@ -1,6 +1,6 @@
 <h1 align="center"> Insurance-Premium-Prediction CI CD Pipeline.</h1>
 
-Application URl :- https://insurancepremiumprediction.up.railway.app/
+Application URl :- https://insurance-premium-prediction.up.railway.app/
 
 Documents :- https://github.com/iamaakashpal/Insurance-Premium-Prediction/tree/main/document
 
